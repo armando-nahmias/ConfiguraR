@@ -9,10 +9,8 @@ usethis::use_git_config(
 
 
 # Configure o Personal Access Token
-usethis::edit_r_environ()
-## Modify 'C:/Users/beatr/Documents/.Renviron'
-## incluir no arquivo linha
-## GITHUB_PAT="0000000000000000000000000000000000000000"
+gitcreds::gitcreds_set()
+## Enter password or token
 ## Restart R for changes to take effect
 
 
