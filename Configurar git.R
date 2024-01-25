@@ -13,6 +13,8 @@ system("git config --global user.name 'Armando Nahmias'")
 system("git config --global user.email 'armando@informartizar.com'")
 
 
+usethis::create_github_token()
+
 
 # Configure o Personal Access Token
 gitcreds::gitcreds_set()
@@ -24,3 +26,4 @@ gitcreds::gitcreds_set()
 
 # Checando se a configuração deu certo
 usethis::git_sitrep()
+
