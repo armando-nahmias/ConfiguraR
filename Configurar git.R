@@ -12,6 +12,8 @@
 system("git config --global user.name 'Armando Nahmias'")
 system("git config --global user.email 'armando@informartizar.com'")
 
+usethis::use_git_config(user.name = 'Armando Nahmias', user.email = 'armando@informartizar.com')
+
 
 usethis::create_github_token()
 
